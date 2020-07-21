@@ -20,6 +20,10 @@ After installing BuckleScript per the linked instructions above,
 
 ```
 cd projectname
+
+# assuming you installed BuckleScript globally, need to run this once
+npm link bs-platform
+
 npm run build
 ```
 
