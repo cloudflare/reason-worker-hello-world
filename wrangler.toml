@@ -1,4 +1,4 @@
-name = "placeholder"
+main = "./worker/script.js" # by default, or whatever file webpack outputs
 
 # Migration with Webpack to Wrangler: https://developers.cloudflare.com/workers/wrangler/migration/eject-webpack/
 [build]
