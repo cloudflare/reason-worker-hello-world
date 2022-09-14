@@ -1,7 +1,5 @@
-name = ""
-type = "webpack"
-webpack_config = "webpack.config.js"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
+name = "placeholder"
+
+# Migration with Webpack to Wrangler: https://developers.cloudflare.com/workers/wrangler/migration/eject-webpack/
+[build]
+command = "npm run build"
