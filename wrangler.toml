@@ -1,7 +1,6 @@
-name = ""
-type = "webpack"
-webpack_config = "webpack.config.js"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
+main = "./worker/script.js" # by default, or whatever file webpack outputs
+compatibility_date = "2022-09-15"
+
+# Migration with Webpack to Wrangler: https://developers.cloudflare.com/workers/wrangler/migration/eject-webpack/
+[build]
+command = "npm run build"
